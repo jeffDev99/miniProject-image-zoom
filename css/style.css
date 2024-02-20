@@ -1,0 +1,24 @@
+body {
+    background-color: rebeccapurple;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    min-height: 100vh;
+}
+
+.container {
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, .3);
+    height: 500px;
+    width: 500px;
+    overflow: hidden;
+    border: 2px solid black;
+}
+
+img {
+    transform-origin: center;
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    transition: .1s ease-in-out transform;
+}
